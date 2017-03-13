@@ -12,6 +12,7 @@ namespace AB.Host
             DependencyContainer.SetContainer(new CastleContainer());
             AbiokaApi.Infrastructure.Framework.Bootstrapper.Initialise();
             AbiokaApi.ApplicationService.Bootstrapper.Initialise();
+            ApplicationService.Bootstrapper.Initialise();
 
             var controllerTypes =
                 from t in Assembly.GetExecutingAssembly().GetTypes()
