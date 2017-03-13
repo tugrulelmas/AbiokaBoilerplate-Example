@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB.Repository", "AB.Reposit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB.ApplicationService", "AB.ApplicationService\AB.ApplicationService.csproj", "{5F55DB86-7B2E-4A9E-A99A-B86BEF317071}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB.Host", "AB.Host\AB.Host.csproj", "{9B9A65C8-D480-442E-B453-EA3BC2CF9E59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5F55DB86-7B2E-4A9E-A99A-B86BEF317071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F55DB86-7B2E-4A9E-A99A-B86BEF317071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F55DB86-7B2E-4A9E-A99A-B86BEF317071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9A65C8-D480-442E-B453-EA3BC2CF9E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9A65C8-D480-442E-B453-EA3BC2CF9E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9A65C8-D480-442E-B453-EA3BC2CF9E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9A65C8-D480-442E-B453-EA3BC2CF9E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
